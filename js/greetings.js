@@ -10,7 +10,7 @@ const USERNAME_KEY = "username";
 
 function onLoginSubmit(event) {
     event.preventDefault();
-    location.href="../html/clock.html";
+    location.href="./clock.html";
     loginform.classList.add(HIDDEN_CLASSNAME);
 
     const username = loginInput.value;
